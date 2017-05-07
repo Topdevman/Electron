@@ -6,6 +6,7 @@
   "scripts": {
     "run": "electron .",
     "start": "concurrently \"webpack-dev-server --port=4200\" \"electron src/entry.live.js\"",
+    "web": "webpack-dev-server --port=4200",
     "ng": "ng",
     "build": "webpack",
     "test": "karma start ./karma.conf.js",
